@@ -1,0 +1,225 @@
+
+/*
+Nobody should temper with this code as it can disorganise the whole
+page structural design...... 
+*/
+/*disclaimer:anyone who uses this case is solely responsible for whatever the outcome is */
+body{
+}
+.container1{
+max-width:900px;
+}
+#zenithLogo{
+margin-left:20px;
+}
+#IT{
+font-size:20px;
+font-weight:500;
+color:slategray;
+}
+#introText{
+padding:5px 15px; 
+}
+hr{
+border:1px outset Ghostwhite; 
+opacity:0.5;
+}
+.container2{
+text-align:center;
+max-width:900px;
+}
+
+#login{
+color:red;
+font-weight:600;
+opacity:0.5;
+}
+#cautionText{
+padding:5px 28px; 
+}
+#caution{
+color:gray;
+opacity:0.5;
+font-size:18px;
+font-weight:100;
+}
+#loginType{
+padding:12px 5px; 
+width:60%;
+background:transparent;
+outline:none;
+appearance:none;
+-webkit-appearance:none;
+-moz-appearance:none;
+font-size:15px;
+}
+
+#selectBlock::after{
+content:"\25BC";
+background:red;
+color:black;
+}
+#selectBlock::after{
+position:absolute;
+top:0;
+right:20%;
+padding:12px 8px; 
+}
+#selectBlock{
+position:relative;
+margin:0 auto; 
+
+}
+#Toggle{
+margin:0 auto; 
+margin-top:-15px;
+width:60%;
+display:none;
+opacity:0.5;
+transition:2s;
+}
+#type1{
+padding:2px 5px; 
+border:1px solid gray; 
+text-align:left;
+}
+#type2{
+padding:2px 5px; 
+border:1px solid gray; 
+margin-top:-15px;
+text-align:left;
+
+}
+#type1:hover{
+background:gray;
+}
+#type2:hover{
+background:gray;
+}
+#loginType:hover{
+border-color:lightblue;
+}
+#field1{
+margin-top:15px;
+text-align:center;
+}
+
+#field2{
+margin-top:15px;
+text-align:center;
+}
+.profile{
+font-size:20px;
+margin-right:-6px;
+background:ghostwhite;
+border-radius:5px 0px 0px 5px;
+padding:4px 6px 8px  8px; 
+border:1px solid silver;
+opacity:0.5;
+}
+#ACnum{
+padding:9px 5px; 
+border-radius:0px 5px 5px 0px;
+border:1px solid silver;
+outline:none;
+width:50%;
+cursor:pointer;
+}
+#ACnum:hover{
+border-color:skyblue;
+}
+.secure{
+font-size:20px;
+background:ghostwhite;
+border:1px solid silver;
+margin-left:-6px;
+padding:4px 9px 8px 10px; 
+border-radius:0px 5px 5px 0px;
+opacity:0.5;
+}
+#lock{
+font-size:20px;
+margin-right:-6px;
+background:ghostwhite;
+border-radius:5px 0px 0px 5px;
+padding:4px 9px 8px 10px; 
+border:1px solid silver;
+
+}
+#password{
+padding:9px 5px; 
+border-radius:5px;
+border:1px solid silver;
+outline:none;
+width:40%;
+cursor:pointer;
+}
+#password:hover{
+border-color:lightblue;
+}
+#submit{
+margin-top:35px;
+}
+#loginBtn{
+padding:10px 85px; 
+background:red;
+font-size:25px;
+font-weight:500;
+color:white;
+border:none;
+border-radius:5px;
+outline:none;
+}
+a{
+text-decoration:none;
+color:Dodgerblue;
+}
+.container3{
+text-align:center;
+margin-top:90px;
+max-width:900px;
+}
+#Alert,#FAQ,#EFP,#Contact{
+font-size:10px;
+color:red;
+} 
+#Alert{
+margin-left:-25px;
+padding:0;
+}
+#EFP,#Contact{
+margin-left:25px;
+}
+#FAQ{
+text-align:center;
+}
+#copyright{
+margin-top:35px;
+Font-size:12px;
+text-align:center;
+color:red;
+}
+#year{
+color:black;
+}
+@media(min-width:480px){
+#loginType{
+width:60%
+}
+#ACnum{
+width:55%;
+}
+#password{
+width:50%;
+}
+#loginBtn{
+width:60%;
+}
+}
+.errormsg{
+margin:0 auto; 
+color:red;
+width:60%;
+text-align:left;
+font-size:14px;
+}
